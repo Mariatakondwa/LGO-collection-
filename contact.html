@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in contact with the LGO Collection headquarters in Midrand. Submit feedback messages, product inquiries, or visit our retail storefront location.">
+    <meta name="keywords" content="Contact LGO Collection Midrand, LGO fashion street headquarters, Life Goes On clothing support">
+    <title>CONTACT & ENQUIRIES | LGO COLLECTION Head Office</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+   <nav>
+        <a href="home.html">Home</a>
+        <a href="about .html">About</a>
+        <a href="services .html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="news.html">News</a>
+   </nav>
+
+<hr>
+
+<center>
+    <h1><u>COMMUNICATIONS HUB</u></h1>
+    <h3>Send A Message Or Request Product Inventory Stock Quotes</h3>
+</center>
+
+<!-- Form Layout Split Setup mapped for individual criteria rules -->
+<div style="display: flex; flex-wrap: wrap; gap: 40px; max-width: 1100px; margin: 0 auto; padding: 20px;">
+    
+    <!-- LEFT: CONTACT FORM SECTION -->
+    <div style="flex: 1; min-width: 300px; padding: 10px;">
+        <h3 style="border-bottom: 2px solid #111; padding-bottom: 5px;">1. General Feedback & Support</h3>
+        <p style="font-size: 0.85rem; color: #666; margin-bottom: 15px;">Use this form for broad brand outreach, customer support requests, and feedback text notes.</p>
+        
+        <form id="contact-form" action="#" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label for="contact-name" style="font-weight:bold; display:block; margin-bottom:5px;">Name:</label>
+                <input type="text" id="contact-name" name="contact-name" required style="width:100%; padding:8px; box-sizing:border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="contact-email" style="font-weight:bold; display:block; margin-bottom:5px;">Email:</label>
+                <input type="email" id="contact-email" name="contact-email" required style="width:100%; padding:8px; box-sizing:border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="contact-message" style="font-weight:bold; display:block; margin-bottom:5px;">Message Content:</label>
+                <textarea id="contact-message" name="contact-message" required placeholder="Type your support message..." rows="5" style="width:100%; padding:8px; box-sizing:border-box; font-family:inherit;"></textarea>
+            </div>
+            <button type="submit" style="width:100%; padding:10px; background:#111; color:#fff; border:none; cursor:pointer; font-weight:bold;">Send Message</button>
+        </form>
+    </div>
+
+    <!-- RIGHT: ENQUIRY FORM SECTION -->
+    <div style="flex: 1; min-width: 300px; padding: 10px;">
+        <h3 style="border-bottom: 2px solid #111; padding-bottom: 5px;">2. Product Stock Enquiry</h3>
+        <p style="font-size: 0.85rem; color: #666; margin-bottom: 15px;">Use this form to specify production sizing variables and receive dynamic automated cost estimations.</p>
+        
+        <form id="enquiry-form" action="#" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label for="enquiry-name" style="font-weight:bold; display:block; margin-bottom:5px;">Full Name:</label>
+                <input type="text" id="enquiry-name" name="enquiry-name" required style="width:100%; padding:8px; box-sizing:border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="enquiry-email" style="font-weight:bold; display:block; margin-bottom:5px;">Email:</label>
+                <input type="email" id="enquiry-email" name="enquiry-email" required style="width:100%; padding:8px; box-sizing:border-box;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="enquiry-product" style="font-weight:bold; display:block; margin-bottom:5px;">Select Apparel Piece:</label>
+                <select id="enquiry-product" name="enquiry-product" required style="width:100%; padding:8px; box-sizing:border-box;">
+                    <option value="">-- Select Drop Item --</option>
+                    <option value="Signature Tee">LGO Signature Tee (R350.00)</option>
+                    <option value="Tracksuit Set">LGO Tracksuit Set (R950.00)</option>
+                    <option value="Urban Identity Hoodie">Urban Identity Hoodie (R550.00)</option>
+                    <option value="Branding Cap">LGO Branding Cap (R220.00)</option>
+                </select>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="enquiry-message" style="font-weight:bold; display:block; margin-bottom:5px;">Specify Sizing & Quantities:</label>
+                <textarea id="enquiry-message" name="enquiry-message" required placeholder="Let us know your sizing requirements..." rows="3" style="width:100%; padding:8px; box-sizing:border-box; font-family:inherit;"></textarea>
+            </div>
+            <button type="submit" style="width:100%; padding:10px; background:#333; color:#fff; border:none; cursor:pointer; font-weight:bold;">Calculate Quote</button>
+        </form>
+    </div>
+
+</div>
+
+
+<!-- Interactive Local Map Box -->
+<div class="map-container" style="max-width: 1100px; margin: 2rem auto; padding: 0 20px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.723498114421!2d28.125492476274026!3d-26.010461877194685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9573f08006b5a3%3A0x67396a8be6562f7d!2sMidrand!5e0!3m2!1sen!2sza!4v1718805210999!5m2!1sen!2sza" 
+    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<hr>
+<br>
+<footer>
+     <p>Contact us: info@LGOCOLLECTION.co.za | 011 555 0123</p>
+     <p>123 Fashion Street, Midrand, Gauteng, South Africa</p>
+     <p>© 2026 LGO COLLECTION. All rights reserved.</p>
+     <p id="datetime"></p>
+</footer>
+
+   <!-- Core JavaScript Connection -->
+   <script src="javascript/script.js"></script>
+</body>
+</html>
